@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MyList from './components/MyList'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="bar">
+        <img
+          src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c529.png"
+          alt="netflix-icon">
+        </img>
+      </div>
+      <MyList />
     </div>
   );
 }
