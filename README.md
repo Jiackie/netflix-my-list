@@ -6,7 +6,7 @@ This project is to create a editable like page. This project is completed by REA
 
 ## Features:
 
-- [ ]  fetch data from mock API
-- [ ]  "My Lists" item can be deleted and will be moved to "Recommendation Lists"
-- [ ]  "Recommendation Lists" item can be added to "My Lists"
+- [x]  fetch data from mock API
+- [x]  "My Lists" item can be deleted and will be moved to "Recommendation Lists"
+- [x]  "Recommendation Lists" item can be added to "My Lists"
 
