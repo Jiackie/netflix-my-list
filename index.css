@@ -1,0 +1,88 @@
+* {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.bar {
+  height: auto;
+}
+
+.bar img {
+  max-height: 4rem;
+}
+
+.list-header {
+  height: 3rem;
+  margin: 1rem 5rem 0;
+  font-family: 'Netflix Sans', Helvetica, Arial, sans-serif;
+}
+
+.mylist-header h2 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.myList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 0 3rem;
+}
+
+.figure-mylist {
+  display: table;
+  width: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.figure-mylist img {
+  width: 12rem;
+  height: 16rem;
+}
+
+.figure-mylist figcaption {
+  display: table-caption;
+  caption-side: top;
+  padding: .5em;
+}
+
+.btn {
+  opacity: 0;
+  cursor: pointer;
+  border-radius: .25rem;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.figure-mylist:hover button {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
