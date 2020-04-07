@@ -9,11 +9,10 @@ import Recommandation from './Recommandation';
 // Hooks;
 
 function MyList(props) {
-  const { pending, list, recommendation, error } = props;
+  const { fetchList, list, error, recommendation, pending } = props;
   useEffect(() => {
-    const {fetchList} = props;
     fetchList();
-  }, []);
+  }, [fetchList]);
 
   if (pending) {
     return (<p>Pending...</p>);
@@ -37,6 +36,10 @@ function MyList(props) {
         <h2>Recommandation</h2>
       </div>
       <Recommandation recommendation= {recommendation} />
+      <div className="bottom-bar">
+        <h4 className="bottom-header">My List : </h4>
+        {list.map(item => (<a key={item.id}>{item.title}</a>))}
+      </div>
     </div>
   )
 }

@@ -3,6 +3,10 @@
   color: #ffffff;
 }
 
+body {
+  margin: 0;
+}
+
 .bar {
   height: auto;
 }
@@ -63,12 +67,24 @@
   opacity: 1;
 }
 
+.bottom-bar a {
+  margin: 10px;
+  background-color: #ffffff;
+  color: #000000;
+}
 
+.bottom-header {
+  margin: 0 1rem 0 5rem;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+}
 
-
-
-
-
+.bottom-bar {
+  background-color: #ffffff;
+  min-height: 1rem;
+  padding: 1rem;
+}
 
 
 
